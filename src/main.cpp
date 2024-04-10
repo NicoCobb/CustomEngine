@@ -1,7 +1,10 @@
 //using SDL and standard IO
 #include <SDL2/SDL.h>
+#include <SDL_image.h>
 #include <stdio.h>
 #include <string>
+
+
 
 //TODO: add extra enums 
 //Screen dimension constants
