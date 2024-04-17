@@ -1,6 +1,6 @@
 //using SDL and standard IO
 #include <SDL2/SDL.h>
-#include <SDL2_image/SDL_image.h>
+#include <SDL2/SDL_image.h>
 #include <stdio.h>
 #include <string>
 
@@ -87,7 +87,7 @@ bool loadMedia()
 	bool success = true;
 
 	//Load PNG surface
-	gPNGSurface = loadSurface( "06_extension_libraries_and_loading_other_image_formats/loaded.png" );
+	gPNGSurface = loadSurface( "assets/loaded.png" );
 	if( gPNGSurface == NULL )
 	{
 		printf( "Failed to load PNG image!\n" );
